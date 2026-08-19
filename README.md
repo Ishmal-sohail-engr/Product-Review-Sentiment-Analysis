@@ -33,6 +33,22 @@ The original dataset contains several attributes, but only the following were us
 | `Score`   | Customer rating from 1 to 5 |
 | `Text`    | Written product review      |
 
+Due to GitHub's file size limitations, the dataset is not included directly in this repository.
+
+The dataset can be downloaded from Kaggle:
+
+**Dataset:** [Amazon Product reviews Sentiment analysis](https://www.kaggle.com/code/mahmoud1mohamed/amazon-product-reviews-sentiment-analysis/notebook)
+
+After downloading the dataset, place `Reviews.csv` in the project directory:
+
+```text
+Product-Review-Sentiment-Analyzer/
+│
+├── Reviews Analyzer.ipynb
+├── Reviews.csv
+└── README.md
+```
+
 ### Sentiment Conversion
 
 The original ratings were converted into binary sentiment labels:
@@ -42,6 +58,7 @@ The original ratings were converted into binary sentiment labels:
 * ⭐ **4–5 → Positive**
 
 Three-star reviews were removed because they may represent neutral or mixed opinions.
+
 
 ### Dataset Balancing
 
